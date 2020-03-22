@@ -1,0 +1,10 @@
+canvas {
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, #2a3649, #242a39, #1c1f29, #14151a, #060608);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
