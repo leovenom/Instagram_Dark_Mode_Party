@@ -8,4 +8,11 @@
     - HTML, CSS, Javascript, jQuery
     - Bootstrap (3.x or 4.x)
 
-# instagram Dark Mode Party
+* Home Page
+![Alt text](/app/assets/images/home_page.png "Home Page")
+
+* User Profile
+![Alt text](/app/assets/images/user_profile.png?raw=true "User Profile")
+
+* Edit User Profile
+![Alt text](/app/assets/images/edit_user_profile.png?raw=true "Edit User Profile")
