@@ -13,7 +13,7 @@
 https://instagramdarkmodeparty.herokuapp.com/
 
 ## Home Page
-![Alt text](/app/assets/images/home_page.png "Home Page")
+![Alt text](/app/assets/images/home_page.png?raw=true "Home Page")
 
 ## User Profile
 ![Alt text](/app/assets/images/user_profile.png?raw=true "User Profile")
