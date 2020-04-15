@@ -86,7 +86,12 @@ h2{
 a{
   color: #d53a9d;
   text-decoration: none;
+  &:hover{
+    color: #d53a9cb3;
+    text-decoration: none;
+  }
 }
+
 
 .nav-link{
   color: #fff;
