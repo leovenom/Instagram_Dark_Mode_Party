@@ -20,7 +20,6 @@
     background-image: -moz-linear-gradient(left, #26d3c0 0%, #df83ed 100%), -moz-linear-gradient(left, #26d3c0 0%, #df83ed 100%);
     background-image: -o-linear-gradient(left, #26d3c0 0%, #df83ed 100%), -o-linear-gradient(left, #26d3c0 0%, #df83ed 100%);
     background-image: linear-gradient(to right, #26d3c0 0%, #df83ed 100%), linear-gradient(to right, #26d3c0 0%, #df83ed 100%);
-    
 }
 .user-section{
   a{
@@ -44,6 +43,7 @@
   input{
     font-size: 13px;
     text-align: center;
+    outline: 0;
   }
 }
 .footer{
@@ -73,6 +73,7 @@ body{
   background-color: #191919;
   color: #26d3c0;
 }
+
 li{
   color: #26d3c0;
 }
@@ -80,10 +81,22 @@ h2{
   color: #26d3c0;
 }
 .logo{
-  color: #26d3c0
+  color: #26d3c0;
+}
+a{
+  color: #d53a9d;
+  text-decoration: none;
 }
 
 .nav-link{
   color: #fff;
   background-color: none;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  outline: 0;
 }
