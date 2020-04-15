@@ -1,5 +1,4 @@
-
-https://instagramdarkmodeparty.herokuapp.com/
+# Instagram clone - Dark Mode Party
 
 ## Tech Stacks
 - Back-end:
