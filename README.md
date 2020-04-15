@@ -1,13 +1,4 @@
-## What’ll you learn after complete this project?
-- How to start a new Rails application?
-- Design System from Craft
-- Understanding MVC (Model — View — Controller) architecture
-- Model: Active Record migration, validation, callback, association, and query interface
-- View: Layout, Partial and Form helpers
-- Controller: Actions, Strong Parameters
-- Rails Routing
-- Active Storage to upload files
-- Using Bootstrap, Devise, Kaminari gem in Rails application
+# Instagram clone - Dark Mode Party
 
 ## Tech Stacks
 - Back-end:
@@ -18,5 +9,14 @@
 - Front-end:
     - HTML, CSS, Javascript, jQuery
     - Bootstrap (3.x or 4.x)
+    
+https://instagramdarkmodeparty.herokuapp.com/
 
-# instagram_dark_mode_party
+## Home Page
+![Alt text](/app/assets/images/home_page.png "Home Page")
+
+## User Profile
+![Alt text](/app/assets/images/user_profile.png?raw=true "User Profile")
+
+## Edit User Profile
+![Alt text](/app/assets/images/edit_user_profile.png?raw=true "Edit User Profile")
