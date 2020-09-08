@@ -1,56 +1,98 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Leonardt Landing Page</title>
+    <title>Leonardt Portfolio 👨🏻‍💻</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Leonardt Lauenstein Landing Page">
+    <meta property="og:title" content="Leonardt Portfolio and Resume">
+    <meta property="og:image" content="https://i.imgur.com/Yf9kb0B.png">
+    <meta property="og:description" content="Leonardt Portfolio and CV">
+    <meta property="og:url" content="https://leonardt-profile.netlify.app/">
+    <meta property="og:type" content="Leonardt Portfolio and CV"/>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
   </head>
 
   <body>
+    <div id="particles-js"></div> 
     <div class="container">
       <div class="card_white">
-        <h1>Hello, I'm Leonardt Lauenstein 😄</h1>
+        <h1>Olá, I'm Leonardt Lauenstein</h1>
         <div id="foto"></div>
-            <p>Recently completed Le Wagon’s 2020 Web Development Bootcamp Ruby on Rails. Now, as a Full-Stack Web Developer, I'm looking forward for my first employment as a Developer and for exciting opportunities to keep learning.</p>
+        	<p><strong>Full-Stack Web Developer</strong> graduated at <strong>Le Wagon</strong>, with background in Industrial Design and Contemporary Art. With hands-on experience using <strong>Ruby on Rails</strong> framework, currently working on freelance projects. Willing to expand my career.
+        	</p>
           <div id="btn">
-          <a href="https://www.linkedin.com/in/leonardtlauenstein/" target="_blank" id="btn-color">About me</a>
+          <a href="https://www.linkedin.com/in/leonardtlauenstein/" target="_blank" id="btn-color">ABOUT ME</a>
+          <a href="https://drive.google.com/file/d/1SefL5ut26Ljy-tcz2MprEEr9hasiUVas/view?usp=sharing" target="_blank" id="btn-color">CV</a>
           </div>
       </div>
 
       <div class="card_projects">
         <h2>Recent projects</h2>
         <div class="content">
+          
           <div class="card" id="panoplia">
-            <a href="http://panoplia.art" target="_blank">
-              <p class="title">Panóplia</p>
-            </a>
-            <p class="text">Click to see</p>
+            <div class="data">
+              <a href="http://panoplia.art" target="_blank">
+                <p class="title">Panóplia</p>
+              </a>
+              <p class="text">Click to see</p>
+            </div>
           </div>
-          <div class="card" id="Ripio">
-            <a href="http://www.ripio.life/" target="_blank">
-              <p class="title">Ripio</p>
-            </a>
-            <p class="text">Click to see</p>
+
+          <div class="card" id="ripio">
+            <div class="data">
+              <a href="http://www.ripio.life/" target="_blank">
+                <p class="title">Ripio</p>
+              </a>
+              <p class="text">Click to see</p>
+            </div>
           </div>
+
+          <div class="card" id="proffy">
+            <div class="data">
+              <a href="https://proffy-react.netlify.app/" target="_blank">
+                <p class="title">Proffy</p>
+              </a>
+              <p class="text">Click to see</p>
+            </div>
+          </div>
+
           <div class="card" id="loker">
-            <a href="https://loca-locker-tamaramontijo.herokuapp.com/" target="_blank">
-              <p class="title">Loka loker</p>
-            </a>
-            <p class="text">Click to see</p>
+            <div class="data">
+              <a href="https://loca-locker-tamaramontijo.herokuapp.com/" target="_blank">
+                <p class="title">Loka loker</p>
+              </a>
+              <p class="text">Click to see</p>
+            </div>
           </div>
+
           <div class="card" id="candy">
-            <a href="https://leovenom.github.io/Candy-Page/" target="_blank">
-              <p class="title">MUSEUM OF CANDY</p>
-            </a>
-            <p class="text">Click to see</p>
+            <div class="data">
+              <a href="https://museumofcandys.netlify.app/" target="_blank">
+                <p class="title">MUSEUM OF CANDY</p>
+              </a>
+              <p class="text">Click to see</p>
+            </div>
           </div>
-          <div class="card" id="instagram">
-            <a href="https://instagramdarkmodeparty.herokuapp.com/users/sign_in" target="_blank">
-              <p class="title">Instagram Party mode</p>
-            </a>
-            <p class="text">Click to see</p>
+
+          <div class="card" id="insta">
+            <div class="data">
+              <a href="https://instagramdarkmodeparty.herokuapp.com/users/1" target="_blank">
+                <p class="title">Instagram Party mode</p>
+              </a>
+              <p class="text">Click to see</p>
+            </div>
+          </div>
+
+          <div class="card" id="game">
+            <div class="data">
+              <a href="https://thecolor-game.netlify.app/" target="_blank">
+                <p class="title">Color Game</p>
+              </a>
+              <p class="text">Click to see</p>
+            </div>
           </div>
 
         </div>
@@ -78,5 +120,9 @@
       </div>
 
     </div>
+
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+    <script type="text/javascript" src="particule.js"></script>
   </body>
 </html>
