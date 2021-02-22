@@ -1,0 +1,22 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+<circle cx="50" cy="50" r="50" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<circle cx="50" cy="50" r="50" fill="#FFDFB3"/>
+<rect x="-11.4287" y="99.0679" width="178.571" height="2.14286" transform="rotate(-45.6251 -11.4287 99.0679)" fill="#F087A1"/>
+<rect x="16.4287" y="135.497" width="178.571" height="2.14286" transform="rotate(-45.6251 16.4287 135.497)" fill="#F087A1"/>
+<rect x="-4.50391" y="101.283" width="178.571" height="2.14286" transform="rotate(-45.6251 -4.50391 101.283)" fill="#F087A1"/>
+<rect x="23.3525" y="137.712" width="178.571" height="2.14286" transform="rotate(-45.6251 23.3525 137.712)" fill="#F087A1"/>
+<rect x="2.41992" y="103.499" width="178.571" height="2.14286" transform="rotate(-45.6251 2.41992 103.499)" fill="#F087A1"/>
+<rect x="30.2764" y="139.927" width="178.571" height="2.14286" transform="rotate(-45.6251 30.2764 139.927)" fill="#F087A1"/>
+<rect x="9.34375" y="105.715" width="178.571" height="2.14286" transform="rotate(-45.6251 9.34375 105.715)" fill="#F087A1"/>
+<rect x="37.2012" y="142.143" width="178.571" height="2.14286" transform="rotate(-45.6251 37.2012 142.143)" fill="#F087A1"/>
+<rect x="16.2676" y="107.93" width="178.571" height="2.14286" transform="rotate(-45.6251 16.2676 107.93)" fill="#F087A1"/>
+<rect x="44.125" y="144.359" width="178.571" height="2.14286" transform="rotate(-45.6251 44.125 144.359)" fill="#F087A1"/>
+<rect x="23.1914" y="110.146" width="178.571" height="2.14286" transform="rotate(-45.6251 23.1914 110.146)" fill="#F087A1"/>
+<rect x="51.0488" y="146.574" width="178.571" height="2.14286" transform="rotate(-45.6251 51.0488 146.574)" fill="#F087A1"/>
+<rect x="30.1162" y="112.362" width="178.571" height="2.14286" transform="rotate(-45.6251 30.1162 112.362)" fill="#F087A1"/>
+<rect x="57.9736" y="148.79" width="178.571" height="2.14286" transform="rotate(-45.6251 57.9736 148.79)" fill="#F087A1"/>
+</g>
+</svg>

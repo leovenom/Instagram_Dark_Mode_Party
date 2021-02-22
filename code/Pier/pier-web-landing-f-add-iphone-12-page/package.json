@@ -1,0 +1,163 @@
+{
+  "name": "pier-lp",
+  "version": "1.0.0",
+  "description": "Pier Landing Page",
+  "main": "pages/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier",
+    "prettify": "prettier --write",
+    "lint": "eslint --ext .js,.ts,.tsx .",
+    "lint:quiet": "eslint --quiet --ext .js,.ts,.tsx .",
+    "build-storybook": "build-storybook -c .storybook -o public",
+    "build:prod": "export APP_ENV=production && next build",
+    "build": "next build",
+    "build:stag": "export APP_ENV=development && next build",
+    "dist:prod": "npm run build:prod && npm run export",
+    "dist:stag": "npm run build:stag && npm run export",
+    "dev": "export APP_ENV=development && next",
+    "export": "next export",
+    "start:prod": "export APP_ENV=production && next",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "test:generate-output": "jest --json --outputFile=.jest-test-results.json",
+    "test:watch": "export APP_ENV=development && jest --watchAll",
+    "test": "export APP_ENV=development && jest -i",
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run"
+  },
+  "dependencies": {
+    "@typeform/embed": "^0.25.4",
+    "@xstate/immer": "^0.1.0",
+    "@xstate/inspect": "^0.4.1",
+    "@xstate/react": "^0.8.1",
+    "@zeit/next-source-maps": "0.0.4-canary.1",
+    "dayjs": "^1.8.26",
+    "dotenv": "^8.2.0",
+    "formik": "^2.0.8",
+    "framer-motion": "^2.9.5",
+    "immer": "^8.0.0",
+    "js-sha256": "^0.9.0",
+    "jsonapi-serializer": "^3.6.6",
+    "logrocket": "^1.0.14",
+    "logrocket-react": "^4.0.1",
+    "next": "^10.0.3",
+    "pure-react-carousel": "^1.27.6",
+    "react": "^17.0.1",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^17.0.1",
+    "react-facebook-login": "^4.1.1",
+    "react-input-mask": "^3.0.0-alpha.0",
+    "react-lottie": "^1.2.3",
+    "react-markdown": "^5.0.2",
+    "react-table": "^7.0.0-beta.20",
+    "react-test-renderer": "^16.13.1",
+    "remark-gfm": "^1.0.0",
+    "styled-components": "^5.0.0-rc.1",
+    "uuid": "^8.3.0",
+    "xstate": "^4.7.6",
+    "yup": "^0.28.0"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "prettier",
+      "prettier/@typescript-eslint",
+      "react-app"
+    ],
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "no-undef": 0,
+      "no-irregular-whitespace": 0,
+      "@typescript-eslint/explicit-function-return-type": 0,
+      "@typescript-eslint/explicit-member-accessibility": 0,
+      "@typescript-eslint/camelcase": 0,
+      "@typescript-eslint/no-empty-interface": 0,
+      "@typescript-eslint/no-var-requires": 0,
+      "@typescript-eslint/no-explicit-any": 1,
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": 0,
+      "react/react-in-jsx-scope": 0,
+      "no-console": [
+        "error",
+        {
+          "allow": [
+            "warn",
+            "error"
+          ]
+        }
+      ]
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{css,json,md,mdx}": [
+      "yarn run prettify --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@storybook/addon-a11y": "^5.2.5",
+    "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-docs": "^5.2.5",
+    "@storybook/addon-info": "^5.2.5",
+    "@storybook/addon-jest": "^5.2.5",
+    "@storybook/addon-knobs": "^5.2.5",
+    "@storybook/addon-storysource": "^5.2.5",
+    "@storybook/addon-viewport": "^5.2.5",
+    "@storybook/addons": "^5.2.5",
+    "@storybook/react": "^5.2.5",
+    "@testing-library/cypress": "^6.0.0",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/react-hooks": "^3.4.2",
+    "@types/jest": "^24.0.21",
+    "@types/node": "^12.12.5",
+    "@types/react": "^16.9.11",
+    "@types/styled-components": "^5.1.0",
+    "@types/testing-library__cypress": "^5.0.5",
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/parser": "^1.6.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-react-html-attrs": "^3.0.5",
+    "cypress": "^4.4.1",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-react-app": "^3.0.8",
+    "eslint-loader": "2.1.1",
+    "eslint-plugin-clean-styled-components": "^0.0.2",
+    "eslint-plugin-flowtype": "2.50.3",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "husky": "^4.2.5",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "react-docgen-typescript-loader": "^3.3.0",
+    "rollbar-sourcemap-webpack-plugin": "^2.12.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4"
+  }
+}

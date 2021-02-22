@@ -1,0 +1,1349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabelaPipe /> Should render without errors 1`] = `
+<div>
+  <nav
+    class="styles__NavBar-sc-1djvyic-0 ktMeVI"
+  >
+    <div
+      class="ResponsiveStyledComponents__ResponsiveMenuContainer-sc-1op8yk4-0 bRZjrF"
+    >
+      <svg
+        fill="#24263B"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 5h22v2H1zM1 11h22v2H1zM1 17h22v2H1z"
+        />
+      </svg>
+      <div
+        class="styles__PierLogo-sc-1djvyic-2 eVMRLz"
+      >
+        <a
+          href="/"
+          title="Pier Logo"
+        >
+          <svg
+            fill="#FF80A1"
+            height="15"
+            width="63"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.183 0c1.266 0 2.366.213 3.3.64.933.413 1.653 1.013 2.16 1.8.506.773.76 1.687.76 2.74 0 1.053-.254 1.967-.76 2.74-.507.773-1.227 1.373-2.16 1.8-.934.413-2.034.62-3.3.62h-2.44V14H.783V0h6.4zm-.24 7.22c.813 0 1.426-.173 1.84-.52.413-.36.62-.867.62-1.52s-.207-1.16-.62-1.52c-.414-.36-1.027-.54-1.84-.54h-2.2v4.1h2.2zM17.333 0h3.96v14h-3.96V0zm20.018 10.94V14H26.11V0h10.98v3.06h-7.06v2.36h6.22v2.96h-6.22v2.56h7.32zm10.317-.66h-2.16V14h-3.96V0h6.4c1.267 0 2.367.213 3.3.64.934.413 1.654 1.013 2.16 1.8.507.773.76 1.687.76 2.74 0 1.013-.24 1.9-.72 2.66-.466.747-1.14 1.333-2.02 1.76l3.02 4.4h-4.24l-2.54-3.72zm2.5-5.1c0-.653-.206-1.16-.62-1.52-.413-.36-1.026-.54-1.84-.54h-2.2v4.1h2.2c.814 0 1.427-.173 1.84-.52.414-.36.62-.867.62-1.52zm9.605 9c-.64 0-1.18-.213-1.62-.64-.44-.427-.66-.967-.66-1.62 0-.667.213-1.207.64-1.62.44-.413.987-.62 1.64-.62.667 0 1.213.207 1.64.62.427.413.64.953.64 1.62 0 .653-.22 1.193-.66 1.62-.426.427-.967.64-1.62.64z"
+            />
+          </svg>
+        </a>
+      </div>
+      <button
+        class="ResponsiveStyledComponents__MenuButton-sc-1op8yk4-1 liyWHE"
+      >
+        <a
+          href="/auth/session/new?step=kind"
+        >
+          Login
+        </a>
+      </button>
+      <div
+        class="ResponsiveStyledComponents__SlideMenu-sc-1op8yk4-2 dUVtLZ"
+      >
+        <div
+          class="ResponsiveStyledComponents__CloseContainer-sc-1op8yk4-5 hQbpBe"
+        >
+          <button
+            aria-label="Fechar menu"
+          >
+            <svg
+              fill="none"
+              height="20"
+              viewBox="0 0 21 20"
+              width="21"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#24263B"
+                height="3"
+                rx="1.5"
+                transform="rotate(45 3 0)"
+                width="24"
+                x="3"
+              />
+              <rect
+                fill="#24263B"
+                height="3"
+                rx="1.5"
+                transform="matrix(-0.707107 0.707107 0.707107 0.707107 17.9707 0)"
+                width="24"
+              />
+            </svg>
+          </button>
+        </div>
+        <ul
+          class="ResponsiveStyledComponents__MenuList-sc-1op8yk4-3 llLjSp"
+        >
+          <li
+            class="ResponsiveStyledComponents__MenuItem-sc-1op8yk4-4 ecnYTh"
+          >
+            <div>
+              <span>
+                Celular
+              </span>
+              <svg
+                fill="none"
+                height="8"
+                viewBox="0 0 14 8"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13 1L7 7L1 1"
+                  stroke="#24263B"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <ul
+              class="ResponsiveStyledComponents__ResponsiveDropdownList-sc-1op8yk4-6 dfQPPB"
+            >
+              <li
+                class="ResponsiveStyledComponents__DropdownItem-sc-1op8yk4-7 cdvMoO"
+              >
+                <a>
+                  Seguro de celular
+                </a>
+              </li>
+              <div
+                class="styles__Divider-sc-1djvyic-1 eReqnB"
+              />
+              <li
+                class="ResponsiveStyledComponents__DropdownItem-sc-1op8yk4-7 cdvMoO"
+              >
+                <a>
+                  Tabela Pipe
+                </a>
+              </li>
+            </ul>
+          </li>
+          <div
+            class="styles__Divider-sc-1djvyic-1 bhlyOr"
+          />
+          <li
+            class="ResponsiveStyledComponents__MenuItem-sc-1op8yk4-4 ecnYTh"
+          >
+            <div>
+              <span>
+                Auto
+              </span>
+              <svg
+                fill="none"
+                height="8"
+                viewBox="0 0 14 8"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13 1L7 7L1 1"
+                  stroke="#24263B"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <ul
+              class="ResponsiveStyledComponents__ResponsiveDropdownList-sc-1op8yk4-6 dfQPPB"
+            >
+              <li
+                class="ResponsiveStyledComponents__DropdownItem-sc-1op8yk4-7 cdvMoO"
+              >
+                <a>
+                  Seguro auto
+                </a>
+              </li>
+              <div
+                class="styles__Divider-sc-1djvyic-1 eReqnB"
+              />
+              <li
+                class="ResponsiveStyledComponents__DropdownItem-sc-1op8yk4-7 cdvMoO"
+              >
+                <a>
+                  Assistência 24h
+                </a>
+              </li>
+            </ul>
+          </li>
+          <div
+            class="styles__Divider-sc-1djvyic-1 bhlyOr"
+          />
+          <li
+            class="ResponsiveStyledComponents__MenuItem-sc-1op8yk4-4 ecnYTh"
+          >
+            <a
+              href="https://blog.pier.digital"
+              rel="noopener"
+              target="_blank"
+            >
+              <span>
+                Blog
+              </span>
+            </a>
+          </li>
+          <div
+            class="styles__Divider-sc-1djvyic-1 bhlyOr"
+          />
+          <li
+            class="ResponsiveStyledComponents__MenuItem-sc-1op8yk4-4 ecnYTh"
+          >
+            <a>
+              <span>
+                Termos
+              </span>
+            </a>
+          </li>
+          <div
+            class="styles__Divider-sc-1djvyic-1 bhlyOr"
+          />
+          <li
+            class="ResponsiveStyledComponents__MenuItem-sc-1op8yk4-4 ecnYTh"
+          >
+            <a
+              href="https://ajuda.pier.digital/pt-BR/"
+              rel="noopener"
+              target="_blank"
+            >
+              <span>
+                Dúvidas
+              </span>
+            </a>
+          </li>
+          <div
+            class="styles__Divider-sc-1djvyic-1 bhlyOr"
+          />
+          <div
+            class="styles__Divider-sc-1djvyic-1 ejbiWq"
+          />
+          <li
+            class="ResponsiveStyledComponents__MenuItem-sc-1op8yk4-4 ecnYTh"
+          >
+            <a>
+              <span>
+                Pedir Reembolso
+              </span>
+            </a>
+          </li>
+          <div
+            class="styles__Divider-sc-1djvyic-1 bhlyOr"
+          />
+          <div
+            class="ResponsiveStyledComponents__ButtonContainer-sc-1op8yk4-8 lfahri"
+          >
+            <button
+              class="Button__StyledButton-szjasf-0 hAZNoR"
+            >
+              Login
+            </button>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="styles__PierLogo-sc-1djvyic-2 eVMRLz"
+    >
+      <a
+        href="/"
+        title="Pier Logo"
+      >
+        <svg
+          fill="#FF80A1"
+          height="15"
+          width="63"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.183 0c1.266 0 2.366.213 3.3.64.933.413 1.653 1.013 2.16 1.8.506.773.76 1.687.76 2.74 0 1.053-.254 1.967-.76 2.74-.507.773-1.227 1.373-2.16 1.8-.934.413-2.034.62-3.3.62h-2.44V14H.783V0h6.4zm-.24 7.22c.813 0 1.426-.173 1.84-.52.413-.36.62-.867.62-1.52s-.207-1.16-.62-1.52c-.414-.36-1.027-.54-1.84-.54h-2.2v4.1h2.2zM17.333 0h3.96v14h-3.96V0zm20.018 10.94V14H26.11V0h10.98v3.06h-7.06v2.36h6.22v2.96h-6.22v2.56h7.32zm10.317-.66h-2.16V14h-3.96V0h6.4c1.267 0 2.367.213 3.3.64.934.413 1.654 1.013 2.16 1.8.507.773.76 1.687.76 2.74 0 1.013-.24 1.9-.72 2.66-.466.747-1.14 1.333-2.02 1.76l3.02 4.4h-4.24l-2.54-3.72zm2.5-5.1c0-.653-.206-1.16-.62-1.52-.413-.36-1.026-.54-1.84-.54h-2.2v4.1h2.2c.814 0 1.427-.173 1.84-.52.414-.36.62-.867.62-1.52zm9.605 9c-.64 0-1.18-.213-1.62-.64-.44-.427-.66-.967-.66-1.62 0-.667.213-1.207.64-1.62.44-.413.987-.62 1.64-.62.667 0 1.213.207 1.64.62.427.413.64.953.64 1.62 0 .653-.22 1.193-.66 1.62-.426.427-.967.64-1.62.64z"
+          />
+        </svg>
+      </a>
+    </div>
+    <div
+      class="DesktopStyledComponents__FlexContainer-sc-1uooej1-0 bJzuUk"
+    >
+      <ul
+        class="DesktopStyledComponents__MenuList-sc-1uooej1-1 eWYliq"
+      >
+        <li
+          class="DesktopStyledComponents__MenuItem-sc-1uooej1-2 eHmdkT"
+        >
+          <div>
+            <span>
+              Celular
+            </span>
+            <svg
+              fill="none"
+              height="8"
+              viewBox="0 0 14 8"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 1L7 7L1 1"
+                stroke="#24263B"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+          <ul
+            class="DesktopStyledComponents__DropdownMenu-sc-1uooej1-5 ksFyKb"
+          >
+            <a>
+              <li
+                class="DesktopStyledComponents__DropdownItem-sc-1uooej1-6 cPFAar"
+              >
+                <span>
+                  Seguro de celular
+                </span>
+                <svg
+                  fill="none"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13 1L7 7L1 1"
+                    stroke="#24263B"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </li>
+            </a>
+            <div
+              class="styles__Divider-sc-1djvyic-1 eReqnB"
+            />
+            <a>
+              <li
+                class="DesktopStyledComponents__DropdownItem-sc-1uooej1-6 cPFAar"
+              >
+                <span>
+                  Tabela Pipe
+                </span>
+                <svg
+                  fill="none"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13 1L7 7L1 1"
+                    stroke="#24263B"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </li>
+            </a>
+          </ul>
+        </li>
+        <li
+          class="DesktopStyledComponents__MenuItem-sc-1uooej1-2 eHmdkT"
+        >
+          <div>
+            <span>
+              Auto
+            </span>
+            <svg
+              fill="none"
+              height="8"
+              viewBox="0 0 14 8"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 1L7 7L1 1"
+                stroke="#24263B"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+          <ul
+            class="DesktopStyledComponents__DropdownMenu-sc-1uooej1-5 ksFyKb"
+          >
+            <a>
+              <li
+                class="DesktopStyledComponents__DropdownItem-sc-1uooej1-6 cPFAar"
+              >
+                <span>
+                  Seguro auto
+                </span>
+                <svg
+                  fill="none"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13 1L7 7L1 1"
+                    stroke="#24263B"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </li>
+            </a>
+            <div
+              class="styles__Divider-sc-1djvyic-1 eReqnB"
+            />
+            <a>
+              <li
+                class="DesktopStyledComponents__DropdownItem-sc-1uooej1-6 cPFAar"
+              >
+                <span>
+                  Assistência 24h
+                </span>
+                <svg
+                  fill="none"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13 1L7 7L1 1"
+                    stroke="#24263B"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </li>
+            </a>
+          </ul>
+        </li>
+        <a
+          href="https://blog.pier.digital"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <li
+            class="DesktopStyledComponents__MenuItem-sc-1uooej1-2 eHmdkT"
+          >
+            <span>
+              Blog
+            </span>
+            <div
+              class="DesktopStyledComponents__HoverDecorator-sc-1uooej1-3 cIlPar decorator"
+            />
+          </li>
+        </a>
+        <a>
+          <li
+            class="DesktopStyledComponents__MenuItem-sc-1uooej1-2 eHmdkT"
+          >
+            <span>
+              Termos
+            </span>
+            <div
+              class="DesktopStyledComponents__HoverDecorator-sc-1uooej1-3 cIlPar decorator"
+            />
+          </li>
+        </a>
+        <a
+          href="https://ajuda.pier.digital/pt-BR/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <li
+            class="DesktopStyledComponents__MenuItem-sc-1uooej1-2 eHmdkT"
+          >
+            <span>
+              Dúvidas
+            </span>
+            <div
+              class="DesktopStyledComponents__HoverDecorator-sc-1uooej1-3 cIlPar decorator"
+            />
+          </li>
+        </a>
+      </ul>
+    </div>
+    <div
+      class="DesktopStyledComponents__FlexContainer-sc-1uooej1-0 bJzuUk"
+    >
+      <ul
+        class="DesktopStyledComponents__MenuList-sc-1uooej1-1 eWYliq"
+      >
+        <a>
+          <li
+            class="DesktopStyledComponents__MenuItem-sc-1uooej1-2 eHmdkT"
+          >
+            <span>
+              Pedir Reembolso
+            </span>
+            <div
+              class="DesktopStyledComponents__HoverDecorator-sc-1uooej1-3 cIlPar decorator"
+            />
+          </li>
+        </a>
+        <a>
+          <li
+            class="DesktopStyledComponents__MenuItem-sc-1uooej1-2 eHmdkT"
+          >
+            <span>
+              Login
+            </span>
+            <div
+              class="DesktopStyledComponents__HoverDecorator-sc-1uooej1-3 cIlPar decorator"
+            />
+          </li>
+        </a>
+      </ul>
+    </div>
+  </nav>
+  <section
+    class="Section-sc-1e15hlz-0 HeroCenteredContent__StyledSection-sc-1mzacsb-0 ezOVkl"
+    id="hero-section"
+  >
+    <img
+      alt="Conjunto de formas geométricas de cor laranja"
+      src="/static_assets/images/rebranding/orange-forms.svg"
+    />
+    <h1
+      class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 dYbbfw"
+    >
+      Tabela PIPE
+    </h1>
+    <p
+      class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 ga-DfZx"
+    >
+      Entenda a mecânica Pier para atualizar as mensalidades e o valor do reembolso dos aparelhos
+    </p>
+  </section>
+  <div
+    class="styles__MainContainer-sc-18zimf4-0 jpUvaI"
+  >
+    <section
+      class="Section-sc-1e15hlz-0 dEKpdA"
+    >
+      <div
+        class="Grid__StyledGrid-sc-148v7sh-0 klckme"
+      >
+        <div
+          class="GridItem__StyledGridItem-rojpzy-0 jmIaJh"
+          d="12"
+        >
+          <h2
+            class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 jPjwaE"
+          >
+            Seu seguro de celular muda com o tempo
+          </h2>
+          <p
+            class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 bQDjEf"
+          >
+            Periodicamente atualizamos os valores de reembolso e mensalidades das proteções
+          </p>
+        </div>
+        <div
+          class="GridItem__StyledGridItem-rojpzy-0 iWYhgm"
+          d="4"
+        >
+          <div
+            class="ThreeItemsSection__ItemContainer-vdut0m-0 lkwxtj"
+          >
+            <img
+              alt="Pessoa pensativa ao lado de um celular indicando queda de preço"
+              height="100"
+              loading="lazy"
+              src="/static_assets/images/thoughtful-man-with-cellphone.svg"
+            />
+            <p
+              class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 iODOXN"
+            >
+              Redução de valor
+            </p>
+            <p
+              class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 fImLCj"
+            >
+              Assim como carros, os celulares também sofrem uma depreciação. Com isso, o valor do reembolso fica menor 
+            </p>
+          </div>
+        </div>
+        <div
+          class="GridItem__StyledGridItem-rojpzy-0 iWYhgm"
+          d="4"
+        >
+          <div
+            class="ThreeItemsSection__ItemContainer-vdut0m-0 lkwxtj"
+          >
+            <img
+              alt="Menina com uma lupa investigando valores;"
+              height="100"
+              loading="lazy"
+              src="/static_assets/images/woman-search-better-prices.svg"
+            />
+            <p
+              class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 iODOXN"
+            >
+              Investigação dos preços
+            </p>
+            <p
+              class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 fImLCj"
+            >
+              Pesquisamos a fundo os valores de seminovos no mercado e, para ser justo, também diminuímos as mensalidades
+            </p>
+          </div>
+        </div>
+        <div
+          class="GridItem__StyledGridItem-rojpzy-0 iWYhgm"
+          d="4"
+        >
+          <div
+            class="ThreeItemsSection__ItemContainer-vdut0m-0 lkwxtj"
+          >
+            <img
+              alt="Homem indicando valores diferentes com uso de um quadro"
+              height="100"
+              loading="lazy"
+              src="/static_assets/images/man-show-prices-changes.svg"
+            />
+            <p
+              class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 iODOXN"
+            >
+              Reajuste programado
+            </p>
+            <p
+              class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 fImLCj"
+            >
+              A pesquisa guia o cálculo da Tabela PIPE, expondo como serão os reajustes
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="Section-sc-1e15hlz-0 styles__StyledSection-sc-18zimf4-1 cAxPtc"
+    >
+      <h2
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 jPjwaE"
+      >
+        Buscar modelo
+      </h2>
+      <p
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 jvkjLQ"
+      >
+        Veja se sua proteção irá receber um reajuste
+      </p>
+      <button
+        class="Button__StyledButton-szjasf-0 eGmdcK"
+      >
+        Ver valores
+      </button>
+    </section>
+    <section
+      class="Section-sc-1e15hlz-0 dStSQa"
+      id="section-faq"
+    >
+      <div
+        class="Grid__StyledGrid-sc-148v7sh-0 klckme"
+      >
+        <div
+          class="GridItem__StyledGridItem-rojpzy-0 styles__StyledTitleGridItem-sc-18zimf4-3 fFBjix"
+          d="4"
+        >
+          <h3
+            class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 kZHtxP styles__StyledText-sc-18zimf4-2 eeLwak"
+          >
+            Perguntas frequentes
+          </h3>
+          <p
+            class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 bprRqv styles__StyledText-sc-18zimf4-2 eeLwak"
+            color="gray"
+          >
+            Tudo sobre a tabela PIPE, pontinho por pontinho!
+          </p>
+        </div>
+        <div
+          class="GridItem__StyledGridItem-rojpzy-0 styles__StyledCollapseGridItem-sc-18zimf4-4 hHBzWW"
+          d="8"
+        >
+          <div
+            class="Collapse__Container-sc-1bn5dn-0 grIIlV"
+          >
+            <section
+              class="Collapse__HoverContainer-sc-1bn5dn-1 bNIMQJ"
+            >
+              <div
+                class="Collapse__Content-sc-1bn5dn-2 kNUFGl"
+                role="button"
+                tabindex="0"
+              >
+                Eu consigo aumentar o valor do meu reembolso após a atualização?
+                <div
+                  class="Collapse__IconHolder-sc-1bn5dn-4 dtttfF"
+                >
+                  <svg
+                    fill="#24263B"
+                    height="9"
+                    viewBox="0 0 13 9"
+                    width="13"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.06641 8.73633C6.45703 9.08789 7.04297 9.08789 7.39453 8.73633L12.707 3.42383C13.0977 3.0332 13.0977 2.44727 12.707 2.0957L11.8477 1.19727C11.457 0.845703 10.8711 0.845703 10.5195 1.19727L6.73047 4.98633L2.98047 1.19726C2.62891 0.845702 2.00391 0.845702 1.65234 1.19726L0.753907 2.0957C0.402344 2.44726 0.402344 3.0332 0.753907 3.42383L6.06641 8.73633Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-expanded="false"
+                class="Collapse__ExpandedContent-sc-1bn5dn-3 dBktHO"
+              >
+                Caso você tenha um plano Econômico, seu valor de reembolso corresponde à 80% do valor de um semi-novo. Você pode trocar pelo plano Premium, que cobre 100% do valor de um semi-novo! Para mudar de plano, basta acessar sua proteção em seu App e na opção “Alterar plano”.
+              </div>
+            </section>
+          </div>
+          <div
+            class="Collapse__Container-sc-1bn5dn-0 grIIlV"
+          >
+            <section
+              class="Collapse__HoverContainer-sc-1bn5dn-1 bNIMQJ"
+            >
+              <div
+                class="Collapse__Content-sc-1bn5dn-2 kNUFGl"
+                role="button"
+                tabindex="0"
+              >
+                Quando o reajuste vai valer pra mim?
+                <div
+                  class="Collapse__IconHolder-sc-1bn5dn-4 dtttfF"
+                >
+                  <svg
+                    fill="#24263B"
+                    height="9"
+                    viewBox="0 0 13 9"
+                    width="13"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.06641 8.73633C6.45703 9.08789 7.04297 9.08789 7.39453 8.73633L12.707 3.42383C13.0977 3.0332 13.0977 2.44727 12.707 2.0957L11.8477 1.19727C11.457 0.845703 10.8711 0.845703 10.5195 1.19727L6.73047 4.98633L2.98047 1.19726C2.62891 0.845702 2.00391 0.845702 1.65234 1.19726L0.753907 2.0957C0.402344 2.44726 0.402344 3.0332 0.753907 3.42383L6.06641 8.73633Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-expanded="false"
+                class="Collapse__ExpandedContent-sc-1bn5dn-3 dBktHO"
+              >
+                Os valores começam a valer a partir do próximo pagamento após a data de atualização. Por exemplo: se você paga todo dia 28 e a atualização da tabela acontecer no dia 30/11, você começa a pagar o valor atualizado a partir do pagamento de 28/12.
+              </div>
+            </section>
+          </div>
+          <div
+            class="Collapse__Container-sc-1bn5dn-0 grIIlV"
+          >
+            <section
+              class="Collapse__HoverContainer-sc-1bn5dn-1 bNIMQJ"
+            >
+              <div
+                class="Collapse__Content-sc-1bn5dn-2 kNUFGl"
+                role="button"
+                tabindex="0"
+              >
+                Por que alguns modelos tem uma desvalorização tão grande?
+                <div
+                  class="Collapse__IconHolder-sc-1bn5dn-4 dtttfF"
+                >
+                  <svg
+                    fill="#24263B"
+                    height="9"
+                    viewBox="0 0 13 9"
+                    width="13"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.06641 8.73633C6.45703 9.08789 7.04297 9.08789 7.39453 8.73633L12.707 3.42383C13.0977 3.0332 13.0977 2.44727 12.707 2.0957L11.8477 1.19727C11.457 0.845703 10.8711 0.845703 10.5195 1.19727L6.73047 4.98633L2.98047 1.19726C2.62891 0.845702 2.00391 0.845702 1.65234 1.19726L0.753907 2.0957C0.402344 2.44726 0.402344 3.0332 0.753907 3.42383L6.06641 8.73633Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-expanded="false"
+                class="Collapse__ExpandedContent-sc-1bn5dn-3 dBktHO"
+              >
+                Sabemos que é muito chato comprar um aparelho celular por um preço grande, e ver o valor desse aparelho cair tanto ☹️ Isso acontece devido a política de precificação de cada marca. Dica amiga: procure saber como acontece a desvalorização da sua marca favorita, para pegar o melhor momento de compra!
+              </div>
+            </section>
+          </div>
+          <div
+            class="Collapse__Container-sc-1bn5dn-0 grIIlV"
+          >
+            <section
+              class="Collapse__HoverContainer-sc-1bn5dn-1 bNIMQJ"
+            >
+              <div
+                class="Collapse__Content-sc-1bn5dn-2 kNUFGl"
+                role="button"
+                tabindex="0"
+              >
+                Eu sou avisado com antecedência sobre a atualização?
+                <div
+                  class="Collapse__IconHolder-sc-1bn5dn-4 dtttfF"
+                >
+                  <svg
+                    fill="#24263B"
+                    height="9"
+                    viewBox="0 0 13 9"
+                    width="13"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.06641 8.73633C6.45703 9.08789 7.04297 9.08789 7.39453 8.73633L12.707 3.42383C13.0977 3.0332 13.0977 2.44727 12.707 2.0957L11.8477 1.19727C11.457 0.845703 10.8711 0.845703 10.5195 1.19727L6.73047 4.98633L2.98047 1.19726C2.62891 0.845702 2.00391 0.845702 1.65234 1.19726L0.753907 2.0957C0.402344 2.44726 0.402344 3.0332 0.753907 3.42383L6.06641 8.73633Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-expanded="false"
+                class="Collapse__ExpandedContent-sc-1bn5dn-3 dBktHO"
+              >
+                Com certeza! Iremos avisar com antecedência sempre que isso for acontecer para que você tenha total liberdade de escolher se deseja manter sua proteção ou não.
+              </div>
+            </section>
+          </div>
+          <div
+            class="Collapse__Container-sc-1bn5dn-0 grIIlV"
+          >
+            <section
+              class="Collapse__HoverContainer-sc-1bn5dn-1 bNIMQJ"
+            >
+              <div
+                class="Collapse__Content-sc-1bn5dn-2 kNUFGl"
+                role="button"
+                tabindex="0"
+              >
+                Essas atualizações acontecem quantas vezes ao ano?
+                <div
+                  class="Collapse__IconHolder-sc-1bn5dn-4 dtttfF"
+                >
+                  <svg
+                    fill="#24263B"
+                    height="9"
+                    viewBox="0 0 13 9"
+                    width="13"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.06641 8.73633C6.45703 9.08789 7.04297 9.08789 7.39453 8.73633L12.707 3.42383C13.0977 3.0332 13.0977 2.44727 12.707 2.0957L11.8477 1.19727C11.457 0.845703 10.8711 0.845703 10.5195 1.19727L6.73047 4.98633L2.98047 1.19726C2.62891 0.845702 2.00391 0.845702 1.65234 1.19726L0.753907 2.0957C0.402344 2.44726 0.402344 3.0332 0.753907 3.42383L6.06641 8.73633Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-expanded="false"
+                class="Collapse__ExpandedContent-sc-1bn5dn-3 dBktHO"
+              >
+                Geralmente fazemos duas vezes ao ano, ou sempre que observamos distorções com nossos valores em comparação aos que são praticados no mercado.
+              </div>
+            </section>
+          </div>
+          <a
+            class="ExternalLink__StyledLink-lmn7o3-0 kVBygc styles__StyledLink-sc-18zimf4-5 emsBSY"
+            href="https://ajuda.pier.digital/pt-BR/articles/2887266-atualizacao-da-tabela-pipe"
+            rel="noopener"
+            target="_blank"
+          >
+            Veja mais respostas
+             
+            <svg
+              fill="none"
+              height="8"
+              viewBox="0 0 14 8"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 1L7 7L1 1"
+                stroke="#24263B"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer
+    class="Footer__StyledFooter-sc-9vbua2-0 fFKCVE"
+    id="page-footer"
+  >
+    <div
+      class="Grid__StyledGrid-sc-148v7sh-0 klckme"
+    >
+      <div
+        class="GridItem__StyledGridItem-rojpzy-0 eUPaoR"
+        d="4"
+      >
+        <a
+          class="Footer__MediaLink-sc-9vbua2-4 ALHYe"
+        >
+          <svg
+            fill="#FF80A1"
+            height="15"
+            width="63"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.183 0c1.266 0 2.366.213 3.3.64.933.413 1.653 1.013 2.16 1.8.506.773.76 1.687.76 2.74 0 1.053-.254 1.967-.76 2.74-.507.773-1.227 1.373-2.16 1.8-.934.413-2.034.62-3.3.62h-2.44V14H.783V0h6.4zm-.24 7.22c.813 0 1.426-.173 1.84-.52.413-.36.62-.867.62-1.52s-.207-1.16-.62-1.52c-.414-.36-1.027-.54-1.84-.54h-2.2v4.1h2.2zM17.333 0h3.96v14h-3.96V0zm20.018 10.94V14H26.11V0h10.98v3.06h-7.06v2.36h6.22v2.96h-6.22v2.56h7.32zm10.317-.66h-2.16V14h-3.96V0h6.4c1.267 0 2.367.213 3.3.64.934.413 1.654 1.013 2.16 1.8.507.773.76 1.687.76 2.74 0 1.013-.24 1.9-.72 2.66-.466.747-1.14 1.333-2.02 1.76l3.02 4.4h-4.24l-2.54-3.72zm2.5-5.1c0-.653-.206-1.16-.62-1.52-.413-.36-1.026-.54-1.84-.54h-2.2v4.1h2.2c.814 0 1.427-.173 1.84-.52.414-.36.62-.867.62-1.52zm9.605 9c-.64 0-1.18-.213-1.62-.64-.44-.427-.66-.967-.66-1.62 0-.667.213-1.207.64-1.62.44-.413.987-.62 1.64-.62.667 0 1.213.207 1.64.62.427.413.64.953.64 1.62 0 .653-.22 1.193-.66 1.62-.426.427-.967.64-1.62.64z"
+            />
+          </svg>
+        </a>
+        <div
+          class="Footer__SocialMediaContainer-sc-9vbua2-5 iVOCcv"
+        >
+          <a
+            aria-label="Acesse o Facebook da Pier"
+            href="https://www.facebook.com/pierdigitalbrasil/"
+            rel="noopener"
+            target="_blank"
+          >
+            <svg
+              fill="#FFFFFF"
+              height="32"
+              viewBox="0 0 18 19"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.75 2.625C17.75 1.60938 16.8906 0.75 15.875 0.75H2.125C1.07031 0.75 0.25 1.60938 0.25 2.625V16.375C0.25 17.4297 1.07031 18.25 2.125 18.25H9.78125V11.3359H7.4375V8.71875H9.78125V6.76562C9.78125 4.5 11.1875 3.25 13.1797 3.25C14.1562 3.25 14.9766 3.32812 15.25 3.36719V5.75H13.8438C12.75 5.75 12.5156 6.25781 12.5156 7V8.71875H15.25L14.8984 11.3359H12.5156V18.25H15.875C16.8906 18.25 17.75 17.4297 17.75 16.375V2.625Z"
+              />
+            </svg>
+          </a>
+          <a
+            aria-label="Acesse o Instagram da Pier"
+            href="https://www.instagram.com/pierdigital/"
+            rel="noopener"
+            target="_blank"
+          >
+            <svg
+              fill="#FFFFFF"
+              height="32"
+              viewBox="0 0 29 29"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 6.813c-4 0-7.188 3.25-7.188 7.187 0 4 3.188 7.188 7.188 7.188 3.938 0 7.188-3.188 7.188-7.188 0-3.938-3.25-7.188-7.188-7.188zm0 11.875A4.681 4.681 0 0110.312 14c0-2.563 2.063-4.625 4.688-4.625A4.615 4.615 0 0119.625 14c0 2.625-2.063 4.688-4.625 4.688zm9.125-12.125a1.68 1.68 0 00-1.688-1.688 1.68 1.68 0 00-1.687 1.688c0 .937.75 1.687 1.688 1.687a1.68 1.68 0 001.687-1.688zm4.75 1.687C28.75 6 28.25 4 26.625 2.375S23 .25 20.75.125C18.437 0 11.5 0 9.187.125 6.938.25 5 .75 3.314 2.375 1.687 4 1.187 6 1.063 8.25c-.125 2.313-.125 9.25 0 11.563.125 2.25.625 4.187 2.25 5.875 1.687 1.625 3.624 2.125 5.874 2.25 2.313.125 9.25.125 11.563 0 2.25-.125 4.25-.625 5.875-2.25 1.625-1.688 2.125-3.625 2.25-5.875.125-2.313.125-9.25 0-11.563zm-3 14c-.438 1.25-1.438 2.188-2.625 2.688-1.875.75-6.25.562-8.25.562-2.063 0-6.438.188-8.25-.563a4.739 4.739 0 01-2.688-2.687C3.313 20.437 3.5 16.062 3.5 14c0-2-.188-6.375.563-8.25A4.82 4.82 0 016.75 3.125c1.813-.75 6.188-.563 8.25-.563 2 0 6.375-.187 8.25.563 1.188.438 2.125 1.438 2.625 2.625.75 1.875.563 6.25.563 8.25 0 2.063.187 6.438-.563 8.25z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div
+          class="Footer__AppStoreButtonsContainer-sc-9vbua2-6 iQtkER"
+        >
+          <div>
+            <a
+              class="Button__StyledButton-szjasf-0 bUyCTe"
+              href="https://app.adjust.com/epnx8wl"
+              title="Baixar na App Store"
+            >
+              <svg
+                fill="none"
+                height="27"
+                width="105"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.61 12.674a5.194 5.194 0 012.486-4.368 5.338 5.338 0 00-4.21-2.27c-1.772-.186-3.489 1.057-4.392 1.057-.92 0-2.31-1.039-3.806-1.008a5.619 5.619 0 00-4.72 2.87C-1.071 12.477.45 17.654 2.406 20.5c.978 1.394 2.12 2.952 3.616 2.897 1.463-.06 2.01-.93 3.776-.93 1.75 0 2.262.93 3.788.895 1.57-.026 2.56-1.4 3.503-2.808A11.516 11.516 0 0018.69 17.3a5.042 5.042 0 01-2.238-1.851 5.02 5.02 0 01-.842-2.776zM12.729 4.163A5.116 5.116 0 0013.905.491a5.235 5.235 0 00-3.384 1.746 4.875 4.875 0 00-1.207 3.536 4.335 4.335 0 003.415-1.61zM34.107 19.868h-4.993l-1.2 3.531H25.8l4.73-13.064h2.197l4.73 13.064h-2.152l-1.198-3.53zm-4.476-1.63h3.958l-1.951-5.73h-.055l-1.952 5.73zM47.671 18.637c0 2.96-1.588 4.862-3.986 4.862a3.246 3.246 0 01-3.005-1.667h-.045v4.718h-1.96V13.875h1.897v1.584h.036a3.383 3.383 0 013.041-1.684c2.424 0 4.022 1.91 4.022 4.862zm-2.015 0c0-1.928-1-3.196-2.524-3.196-1.498 0-2.505 1.295-2.505 3.196 0 1.92 1.007 3.205 2.505 3.205 1.525 0 2.524-1.259 2.524-3.205zM58.184 18.637c0 2.96-1.589 4.862-3.986 4.862a3.245 3.245 0 01-3.005-1.667h-.045v4.718h-1.961V13.875h1.898v1.584h.036a3.384 3.384 0 013.04-1.684c2.425 0 4.023 1.91 4.023 4.862zm-2.015 0c0-1.928-1-3.196-2.524-3.196-1.498 0-2.506 1.295-2.506 3.196 0 1.92 1.008 3.205 2.506 3.205 1.524 0 2.524-1.259 2.524-3.205zM65.131 19.76c.145 1.295 1.407 2.145 3.132 2.145 1.652 0 2.841-.85 2.841-2.018 0-1.014-.717-1.622-2.415-2.038l-1.697-.407c-2.406-.58-3.523-1.702-3.523-3.522 0-2.254 1.97-3.802 4.767-3.802 2.768 0 4.666 1.548 4.73 3.802h-1.98c-.118-1.304-1.198-2.09-2.778-2.09-1.579 0-2.66.795-2.66 1.954 0 .924.69 1.467 2.38 1.883l1.443.354c2.687.634 3.804 1.71 3.804 3.621 0 2.444-1.952 3.975-5.057 3.975-2.905 0-4.867-1.495-4.994-3.858h2.007zM77.406 11.62v2.255h1.816v1.548h-1.816v5.25c0 .816.363 1.196 1.162 1.196.215-.004.43-.019.645-.045v1.539a5.402 5.402 0 01-1.09.09c-1.933 0-2.687-.724-2.687-2.571v-5.46h-1.389v-1.548h1.389V11.62h1.97zM80.274 18.637c0-2.996 1.77-4.88 4.53-4.88 2.77 0 4.531 1.884 4.531 4.88 0 3.005-1.752 4.88-4.53 4.88-2.778 0-4.53-1.875-4.53-4.88zm7.064 0c0-2.055-.945-3.269-2.534-3.269-1.588 0-2.532 1.223-2.532 3.27 0 2.063.944 3.267 2.532 3.267 1.589 0 2.534-1.204 2.534-3.268zM90.951 13.875h1.87v1.62h.046c.126-.506.424-.953.842-1.266a2.283 2.283 0 011.455-.454c.226 0 .451.024.672.073v1.829a2.75 2.75 0 00-.881-.119 1.981 1.981 0 00-1.527.628 1.966 1.966 0 00-.516 1.564v5.649h-1.96v-9.524zM104.875 20.602c-.264 1.729-1.952 2.915-4.112 2.915-2.779 0-4.504-1.856-4.504-4.834 0-2.988 1.734-4.925 4.421-4.925 2.643 0 4.304 1.81 4.304 4.698v.67h-6.745v.117a2.472 2.472 0 00.674 1.928 2.487 2.487 0 001.895.77 2.158 2.158 0 002.206-1.34h1.861zm-6.627-2.843h4.775a2.286 2.286 0 00-1.419-2.245 2.304 2.304 0 00-.924-.172 2.423 2.423 0 00-2.249 1.49c-.122.293-.184.609-.183.927zM27.111 6.78V.501h2.53c1.183 0 1.894.6 1.894 1.566a1.373 1.373 0 01-1.103 1.349v.074a1.49 1.49 0 011.417 1.51c0 1.104-.806 1.778-2.15 1.778H27.11zm.978-3.62h1.16c.864 0 1.314-.317 1.314-.913 0-.58-.424-.918-1.148-.918h-1.326V3.16zm1.414 2.793c.88 0 1.347-.357 1.347-1.022 0-.657-.484-1-1.404-1h-1.357v2.022h1.414zM32.854 5.44c0-.853.636-1.344 1.767-1.414l1.286-.074v-.41c0-.5-.331-.782-.972-.782-.524 0-.886.192-.99.527h-.908c.096-.814.864-1.336 1.941-1.336 1.191 0 1.863.591 1.863 1.592V6.78h-.903v-.666h-.074a1.597 1.597 0 01-1.427.744 1.44 1.44 0 01-1.458-.838 1.425 1.425 0 01-.125-.58zm3.053-.405V4.64l-1.16.074c-.654.044-.95.266-.95.683 0 .427.37.675.88.675a1.123 1.123 0 001.23-1.036zM38.187.642a.605.605 0 01.702-.634.608.608 0 01.468.82.606.606 0 01-.564.383.578.578 0 01-.606-.57zm.139 1.4h.934V6.78h-.934V2.042zM42.477 5.1L41.44 6.78h-1.03l1.576-2.358-1.589-2.38h1.095l1.021 1.67h.075l1.011-1.67h1.043l-1.566 2.34 1.583 2.398h-1.076L42.547 5.1h-.07zM45.485 5.44c0-.853.637-1.344 1.767-1.414l1.287-.074v-.41c0-.5-.332-.782-.973-.782-.523 0-.886.192-.99.527h-.907c.096-.814.863-1.336 1.94-1.336 1.192 0 1.863.591 1.863 1.592V6.78h-.902v-.666h-.074a1.596 1.596 0 01-1.427.744 1.44 1.44 0 01-1.458-.838 1.425 1.425 0 01-.126-.58zm3.054-.405V4.64l-1.16.074c-.654.044-.951.266-.951.683 0 .427.37.675.88.675a1.123 1.123 0 001.23-1.036zM50.94 2.043h.903v.726h.07a1.285 1.285 0 011.282-.805c.14-.002.281.011.419.039v.923a2.575 2.575 0 00-.524-.057 1.116 1.116 0 00-1.12.664 1.108 1.108 0 00-.092.45V6.78h-.938V2.043zM57.226 2.042h.903v.753h.07a1.42 1.42 0 011.418-.844 1.549 1.549 0 011.591 1.079c.069.22.087.454.053.683v3.066h-.937V3.947c0-.76-.332-1.14-1.025-1.14a1.093 1.093 0 00-1.084.74c-.05.148-.067.305-.05.461V6.78h-.939V2.042zM62.441 5.44c0-.853.637-1.344 1.767-1.414l1.287-.074v-.41c0-.5-.332-.782-.973-.782-.523 0-.886.192-.99.527h-.907c.096-.814.863-1.336 1.94-1.336 1.192 0 1.863.591 1.863 1.592V6.78h-.902v-.666h-.074a1.596 1.596 0 01-1.427.744 1.439 1.439 0 01-1.458-.838 1.428 1.428 0 01-.126-.58zm3.054-.405V4.64l-1.16.074c-.654.044-.95.266-.95.683 0 .427.37.675.88.675a1.123 1.123 0 001.112-.607c.068-.134.108-.28.118-.429z"
+                  fill="#fff"
+                />
+              </svg>
+            </a>
+          </div>
+          <div>
+            <a
+              class="Button__StyledButton-szjasf-0 bUyCTe"
+              href="https://app.adjust.com/epnx8wl"
+              title="Disponível no Google Play"
+            >
+              <svg
+                fill="none"
+                height="28"
+                width="109"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M54.524 16.27c-2.249 0-4.029 1.687-4.029 4.029a3.999 3.999 0 004.029 4.028c2.248 0 4.028-1.686 4.028-4.028-.093-2.342-1.873-4.028-4.028-4.028zm0 6.371c-1.218 0-2.249-1.03-2.249-2.436 0-1.405 1.031-2.435 2.249-2.435 1.218 0 2.248.936 2.248 2.435 0 1.5-1.03 2.436-2.248 2.436zm-8.806-6.37c-2.249 0-4.029 1.686-4.029 4.028a3.999 3.999 0 004.029 4.028c2.248 0 4.028-1.686 4.028-4.028 0-2.342-1.78-4.028-4.028-4.028zm0 6.37c-1.218 0-2.249-1.03-2.249-2.436 0-1.405 1.03-2.435 2.249-2.435 1.217 0 2.248.936 2.248 2.435.094 1.5-1.03 2.436-2.248 2.436zM35.412 17.49v1.686h4.029c-.094.937-.469 1.686-.937 2.154-.562.563-1.499 1.218-3.092 1.218-2.53 0-4.403-1.967-4.403-4.496 0-2.53 1.968-4.497 4.403-4.497 1.312 0 2.343.562 3.092 1.218l1.218-1.218c-1.03-.937-2.342-1.687-4.216-1.687-3.373 0-6.277 2.81-6.277 6.184 0 3.372 2.904 6.183 6.277 6.183 1.874 0 3.185-.562 4.31-1.78 1.124-1.125 1.498-2.717 1.498-3.935 0-.375 0-.75-.093-1.03h-5.809zm42.44 1.311c-.376-.937-1.313-2.53-3.374-2.53-2.06 0-3.747 1.593-3.747 4.029 0 2.248 1.686 4.028 3.935 4.028 1.78 0 2.904-1.124 3.279-1.78l-1.312-.937c-.468.656-1.03 1.125-1.967 1.125s-1.5-.375-1.968-1.218l5.34-2.249-.187-.468zm-5.434 1.312c0-1.5 1.217-2.342 2.06-2.342.656 0 1.312.374 1.5.843l-3.56 1.499zm-4.31 3.84h1.78v-11.71h-1.78v11.71zm-2.904-6.838c-.469-.469-1.218-.937-2.155-.937-1.967 0-3.841 1.78-3.841 4.028 0 2.249 1.78 3.935 3.841 3.935.937 0 1.686-.468 2.061-.937h.094v.562c0 1.5-.843 2.342-2.155 2.342-1.03 0-1.78-.75-1.967-1.405l-1.5.656c.47 1.03 1.593 2.342 3.56 2.342 2.062 0 3.748-1.218 3.748-4.122v-7.12h-1.686v.656zm-1.968 5.527c-1.217 0-2.248-1.03-2.248-2.436 0-1.405 1.03-2.435 2.248-2.435 1.218 0 2.155 1.03 2.155 2.435-.094 1.405-1.03 2.436-2.155 2.436zm22.766-10.399h-4.216v11.71h1.78V19.55h2.436c1.967 0 3.84-1.405 3.84-3.653 0-2.249-1.873-3.654-3.84-3.654zm.093 5.715h-2.53v-4.029h2.53c1.312 0 2.061 1.125 2.061 1.968 0 .937-.75 2.06-2.06 2.06zM96.87 16.27c-1.312 0-2.623.562-3.092 1.78l1.593.655c.375-.655.937-.843 1.593-.843.936 0 1.78.562 1.873 1.5v.093c-.28-.188-1.03-.469-1.78-.469-1.686 0-3.372.937-3.372 2.623 0 1.593 1.405 2.624 2.904 2.624 1.218 0 1.78-.562 2.248-1.125h.094v.937h1.686V19.55c-.187-2.154-1.686-3.278-3.747-3.278zm-.188 6.37c-.562 0-1.405-.281-1.405-1.03 0-.937 1.03-1.218 1.874-1.218.75 0 1.124.187 1.593.374-.094 1.125-1.03 1.874-2.061 1.874zm9.931-6.183l-1.967 5.059h-.094l-2.061-5.06h-1.874l3.092 7.12-1.78 3.936h1.78l4.778-11.055h-1.874zm-15.739 7.495h1.78v-11.71h-1.78v11.71z"
+                  fill="#fff"
+                />
+                <path
+                  d="M.468 2.967C.188 3.248 0 3.717 0 4.28v20.704c0 .562.187 1.03.468 1.312l.094.093L12.18 14.772v-.188L.469 2.967z"
+                  fill="url(#paint0_linear)"
+                />
+                <path
+                  d="M16.02 18.613l-3.84-3.841v-.188l3.84-3.84.094.093 4.59 2.623c1.312.75 1.312 1.967 0 2.717l-4.684 2.436z"
+                  fill="url(#paint1_linear)"
+                />
+                <path
+                  d="M16.02 18.613l-3.935-3.935L.468 26.294c.469.469 1.124.469 1.968.094l13.584-7.776z"
+                  fill="url(#paint2_linear)"
+                />
+                <path
+                  d="M16.02 10.65L2.342 2.873c-.75-.469-1.499-.375-1.874.093l11.71 11.71 3.842-4.027z"
+                  fill="url(#paint3_linear)"
+                />
+                <path
+                  d="M16.02 18.519L2.342 26.2c-.75.468-1.405.375-1.874 0l-.093.094.093.093c.469.375 1.125.469 1.874 0l13.678-7.87z"
+                  fill="#000"
+                  opacity=".2"
+                />
+                <path
+                  d="M.468 26.2C.188 25.92 0 25.452 0 24.89v.093c0 .562.187 1.03.468 1.311v-.093zM20.61 15.802l-4.684 2.623.094.094 4.59-2.623c.656-.375.937-.843.937-1.312 0 .469-.28.937-.937 1.218z"
+                  fill="#000"
+                  opacity=".12"
+                />
+                <path
+                  d="M2.342 3.061L20.61 13.367c.563.374.937.749.937 1.217 0-.468-.28-.936-.937-1.311L2.342 2.873C1.031 2.125 0 2.78 0 4.28v.094c0-1.5 1.03-2.061 2.342-1.312z"
+                  fill="#fff"
+                  opacity=".25"
+                />
+                <path
+                  d="M29.416 8.026v-5.62h1.687c.843 0 1.592.28 2.06.749.563.562.75 1.311.75 2.06 0 .844-.28 1.5-.75 2.062-.561.562-1.217.75-2.06.75h-1.687zm.656-.655h1.03c.657 0 1.125-.188 1.5-.563.375-.374.562-.936.562-1.592s-.188-1.218-.562-1.593c-.375-.375-.937-.562-1.5-.562h-1.03v4.31zM34.944 8.026v-5.62h.75v5.62h-.75zM38.598 8.214c-.375 0-.843-.094-1.218-.375s-.656-.656-.75-1.124l.656-.281c.094.28.282.562.469.75.187.187.468.28.843.28.281 0 .562 0 .75-.187.187-.188.374-.375.374-.656s-.093-.562-.375-.75c-.187-.187-.562-.374-1.03-.468a6.24 6.24 0 01-1.124-.562c-.281-.281-.375-.562-.375-.937s.187-.75.468-1.03c.282-.281.75-.469 1.218-.469.469 0 .843.094 1.125.375.28.281.468.468.562.75l-.563.187c-.093-.188-.187-.375-.374-.469-.188-.187-.469-.187-.75-.187-.28 0-.468.094-.75.187-.186.188-.28.375-.28.563 0 .187.094.374.28.562.188.187.47.28.844.374.281.094.468.188.656.281.187.094.375.188.562.375a.96.96 0 01.468.562c.094.188.188.469.188.75 0 .28-.094.374-.188.562a1.13 1.13 0 01-.468.468l-.562.281c-.188.094-.469.188-.656.188zM42.158 8.026h-.75v-5.62h1.874c.469 0 .843.187 1.218.468.375.28.562.75.562 1.218 0 .468-.187.843-.562 1.217-.375.282-.75.469-1.218.469h-1.124v2.248zm0-2.904h1.218c.28 0 .562-.094.75-.28.187-.188.28-.47.28-.657 0-.187-.093-.468-.28-.656-.188-.187-.47-.28-.75-.28h-1.218v1.873zM50.683 7.37c-.562.563-1.218.844-2.061.844s-1.499-.281-2.061-.843c-.562-.563-.843-1.218-.843-2.062 0-.843.28-1.498.843-2.06.562-.563 1.218-.844 2.061-.844s1.499.281 2.061.843c.562.469.843 1.218.843 1.968 0 .843-.28 1.592-.843 2.155zm-3.654-.468c.375.375.937.656 1.5.656.561 0 1.123-.187 1.498-.656a2.26 2.26 0 00.656-1.593c0-.655-.187-1.217-.656-1.592-.374-.375-.937-.656-1.499-.656s-1.124.187-1.499.656a2.26 2.26 0 00-.655 1.592c0 .656.28 1.125.655 1.593zM52.463 8.026v-5.62h.937l2.717 4.402V2.405h.75v5.621h-.75l-2.904-4.59v4.59h-.75zM58.084 8.026v-5.62h.749v5.62h-.75zm.749-5.995h-.656L58.552 1h.75l-.469 1.03zM61.55 8.026l-1.967-5.62h.843l1.405 4.59 1.593-4.59h.843l-2.061 5.62h-.656zM68.389 3.155h-2.53v1.78h2.343v.656H65.86v1.78h2.529v.655H65.11v-5.62h3.279v.749zM69.513 8.026v-5.62h.75V7.37h2.436v.655h-3.186zM75.509 8.026v-5.62h.843l2.717 4.402V2.405h.75v5.621h-.75l-2.904-4.59v4.59h-.656zM85.72 7.37c-.562.563-1.218.844-2.06.844-.844 0-1.5-.281-2.062-.843-.562-.563-.843-1.218-.843-2.062 0-.843.281-1.498.843-2.06.562-.563 1.218-.844 2.061-.844s1.5.281 2.061.843c.563.563.844 1.218.844 2.061 0 .75-.281 1.5-.844 2.062zm-3.56-.468c.375.375.937.656 1.5.656.561 0 1.124-.187 1.498-.656a2.26 2.26 0 00.656-1.593c0-.655-.187-1.217-.656-1.592-.374-.375-.937-.656-1.499-.656s-1.124.187-1.499.656a2.26 2.26 0 00-.655 1.592c0 .656.187 1.125.655 1.593z"
+                  fill="#fff"
+                  stroke="#fff"
+                  stroke-miterlimit="10"
+                  stroke-width=".2"
+                />
+                <defs>
+                  <lineargradient
+                    gradientUnits="userSpaceOnUse"
+                    id="paint0_linear"
+                    x1="11.08"
+                    x2="-4.642"
+                    y1="4.046"
+                    y2="19.769"
+                  >
+                    <stop
+                      stop-color="#00A0FF"
+                    />
+                    <stop
+                      offset=".007"
+                      stop-color="#00A1FF"
+                    />
+                    <stop
+                      offset=".26"
+                      stop-color="#00BEFF"
+                    />
+                    <stop
+                      offset=".512"
+                      stop-color="#00D2FF"
+                    />
+                    <stop
+                      offset=".76"
+                      stop-color="#00DFFF"
+                    />
+                    <stop
+                      offset="1"
+                      stop-color="#00E3FF"
+                    />
+                  </lineargradient>
+                  <lineargradient
+                    gradientUnits="userSpaceOnUse"
+                    id="paint1_linear"
+                    x1="22.355"
+                    x2="-.314"
+                    y1="14.625"
+                    y2="14.625"
+                  >
+                    <stop
+                      stop-color="#FFE000"
+                    />
+                    <stop
+                      offset=".409"
+                      stop-color="#FFBD00"
+                    />
+                    <stop
+                      offset=".775"
+                      stop-color="orange"
+                    />
+                    <stop
+                      offset="1"
+                      stop-color="#FF9C00"
+                    />
+                  </lineargradient>
+                  <lineargradient
+                    gradientUnits="userSpaceOnUse"
+                    id="paint2_linear"
+                    x1="13.916"
+                    x2="-7.405"
+                    y1="16.774"
+                    y2="38.095"
+                  >
+                    <stop
+                      stop-color="#FF3A44"
+                    />
+                    <stop
+                      offset="1"
+                      stop-color="#C31162"
+                    />
+                  </lineargradient>
+                  <lineargradient
+                    gradientUnits="userSpaceOnUse"
+                    id="paint3_linear"
+                    x1="-2.506"
+                    x2="7.014"
+                    y1="-3.948"
+                    y2="5.573"
+                  >
+                    <stop
+                      stop-color="#32A071"
+                    />
+                    <stop
+                      offset=".069"
+                      stop-color="#2DA771"
+                    />
+                    <stop
+                      offset=".476"
+                      stop-color="#15CF74"
+                    />
+                    <stop
+                      offset=".801"
+                      stop-color="#06E775"
+                    />
+                    <stop
+                      offset="1"
+                      stop-color="#00F076"
+                    />
+                  </lineargradient>
+                </defs>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="GridItem__StyledGridItem-rojpzy-0 kPTsNd"
+        d="2"
+      >
+        <ul
+          class="Footer__List-sc-9vbua2-2 kalDHJ"
+        >
+          <li>
+            <p
+              class="Footer__ListTitle-sc-9vbua2-1 jHyBEa"
+            >
+              Pier
+            </p>
+          </li>
+          <li>
+            <a>
+              Pedir reembolso
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://careers.pier.digital"
+              rel="noopener"
+              target="_blank"
+            >
+              Carreira
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://blog.pier.digital"
+              rel="noopener"
+              target="_blank"
+            >
+              Blog
+            </a>
+          </li>
+          <li>
+            <a
+              href="/lp/sandbox-regulatorio-pier"
+              rel="noopener"
+              target="_blank"
+            >
+              Sandbox
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="GridItem__StyledGridItem-rojpzy-0 kPTsNd"
+        d="2"
+      >
+        <ul
+          class="Footer__List-sc-9vbua2-2 kalDHJ"
+        >
+          <li>
+            <p
+              class="Footer__ListTitle-sc-9vbua2-1 jHyBEa"
+            >
+              Celular
+            </p>
+          </li>
+          <li>
+            <a>
+              Seguro de celular
+            </a>
+          </li>
+          <li>
+            <a>
+              Tabela Pipe
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="GridItem__StyledGridItem-rojpzy-0 kPTsNd"
+        d="2"
+      >
+        <ul
+          class="Footer__List-sc-9vbua2-2 kalDHJ"
+        >
+          <li>
+            <p
+              class="Footer__ListTitle-sc-9vbua2-1 jHyBEa"
+            >
+              Auto
+            </p>
+          </li>
+          <li>
+            <a>
+              Seguro auto
+            </a>
+          </li>
+          <li>
+            <a>
+              Assistência
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="GridItem__StyledGridItem-rojpzy-0 kPTsNd"
+        d="2"
+      >
+        <ul
+          class="Footer__List-sc-9vbua2-2 kalDHJ"
+        >
+          <li>
+            <p
+              class="Footer__ListTitle-sc-9vbua2-1 jHyBEa"
+            >
+              Contato
+            </p>
+          </li>
+          <li>
+            <div
+              role="button"
+            >
+              <svg
+                fill="#FFFFFF"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 0H2C.897 0 0 .897 0 2v9c0 1.103.897 2 2 2h3v2.625c0 .306.35.484.597.303L9.5 13H14c1.103 0 2-.897 2-2V2c0-1.103-.897-2-2-2z"
+                />
+              </svg>
+               Chat
+            </div>
+          </li>
+          <li>
+            <a
+              href="mailto:contato@pier.digital"
+              rel="noopener"
+              target="_blank"
+            >
+              <svg
+                fill="#FFFFFF"
+                height="16"
+                viewBox="0 0 18 13"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.031 4.467c-.763.597-1.726 1.328-5.113 3.785-.664.498-1.893 1.594-3.055 1.594-1.195 0-2.39-1.096-3.088-1.594C2.39 5.795 1.425 5.064.662 4.467c-.133-.1-.299 0-.299.166v6.773c0 .897.698 1.594 1.594 1.594H15.77c.863 0 1.593-.697 1.593-1.594V4.633c0-.166-.199-.266-.332-.166zM8.863 8.75c.764.033 1.86-.963 2.424-1.361 4.416-3.188 4.748-3.487 5.744-4.284a.756.756 0 00.332-.63v-.631c0-.864-.73-1.594-1.593-1.594H1.957C1.061.25.363.98.363 1.844v.63c0 .266.1.499.3.631.995.797 1.327 1.096 5.743 4.284.565.398 1.66 1.394 2.457 1.361z"
+                />
+              </svg>
+               Email
+            </a>
+          </li>
+          <li>
+            <a>
+              <svg
+                fill="#FFFFFF"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.3 7.906c0-.674-.38-1.289-.937-1.611V1.842c0-.264-.205-.967-.937-.967a.818.818 0 00-.586.234l-2.52 1.993c-1.23.996-2.812 1.523-4.394 1.523H2.3A1.87 1.87 0 00.426 6.5v2.813c0 1.054.82 1.874 1.875 1.874h.967c-.03.323-.059.645-.059.938 0 1.172.264 2.285.762 3.252.146.322.468.498.82.498h2.168c.762 0 1.23-.85.762-1.465-.469-.644-.762-1.406-.762-2.285 0-.322.059-.615.117-.938h.85c1.582 0 3.164.557 4.394 1.553l2.52 1.992c.117.118.38.206.556.206.733 0 .938-.645.938-.938V9.547c.586-.322.967-.938.967-1.64zm-2.812 4.16l-.996-.79a8.954 8.954 0 00-5.566-1.963V6.5a8.925 8.925 0 005.566-1.934l.996-.79v8.29z"
+                />
+              </svg>
+               Imprensa
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="GridItem__StyledGridItem-rojpzy-0 kPTsNd"
+        d="2"
+      />
+      <div
+        class="GridItem__StyledGridItem-rojpzy-0 kMrCkS"
+        d="12"
+      >
+        <div
+          class="Divider-aharmb-0 Footer__StyledDivider-sc-9vbua2-7 bMKrVt"
+        />
+        <div>
+          <p
+            class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 fBcXwM"
+            color="gray"
+          >
+            A Pier Seguradora S.A., popularmente conhecida como Pier, é a seguradora digital mais amada do Brasil. O nosso
+CNPJ é o 39.380.513/0001-00 e o nosso escritório fica na Rua Cláudio Soares, 72, conj. 705, São Paulo, SP, CEP 05422-030. Quando sair a vacina, aparece para um café! ;)
+          </p>
+        </div>
+        <p
+          class="Footer__TermsContent-sc-9vbua2-3 fvGDdr"
+        >
+          <a
+            href="/seguro-celular/termos-de-uso"
+          >
+            Termos de uso
+          </a>
+          <span>
+             ∙
+          </span>
+          <a
+            href="/seguro-celular/politica-de-privacidade"
+          >
+            Política de Privacidade
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

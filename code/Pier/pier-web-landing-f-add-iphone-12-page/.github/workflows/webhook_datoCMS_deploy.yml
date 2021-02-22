@@ -1,0 +1,94 @@
+name: Webhook to Deploy in Prod and notify DatoCMS
+
+on: repository_dispatch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: sa-east-1
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - uses: actions/cache@v1
+        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: Install Packages
+        run: yarn install
+
+      - name: Build
+        env:
+          INTERCOM_APP_ID: ${{ secrets.INTERCOM_APP_ID }}
+          MIXPANEL_TOKEN: ${{ secrets.MIXPANEL_TOKEN }}
+          GOOGLE_TAG_MANAGER_ID: ${{ secrets.GOOGLE_TAG_MANAGER_ID }}
+          FACEBOOK_APP_ID: ${{ secrets.FACEBOOK_APP_ID }}
+          GOOGLE_MAPS_KEY: ${{ secrets.GOOGLE_MAPS_KEY }}
+          PIER_API_URL: ${{ secrets.PIER_API_URL }}
+          PIER_CLOUDFRONT_URL: https://d3hoiws9t8j8sr.cloudfront.net
+          GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
+          GOOGLE_OPTIMIZE_ID: ${{ secrets.GOOGLE_OPTIMIZE_ID }}
+          ROLLBAR_ACCESS_TOKEN: ${{ secrets.ROLLBAR_ACCESS_TOKEN }}
+          ROLLBAR_ACCESS_TOKEN_SERVER: ${{ secrets.ROLLBAR_ACCESS_TOKEN_SERVER }}
+          LOGROCKET_ID: ${{ secrets.LOGROCKET_ID }}
+
+        run: yarn run dist:prod
+
+      - name: Deploy to S3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.S3_BUCKET }}
+          AWS_REGION: sa-east-1
+          SOURCE_DIR: "out"
+
+      - name: Invalidate Cloudfront Objects
+        env:
+          CLOUDFRONT_DIST_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+        run: |
+          aws configure set preview.cloudfront true
+          aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DIST_ID --paths "/*"
+
+      - name: notify DatoCMS
+        run: |
+          curl -n -X POST https://webhooks.datocms.com/f7fd7a8ddf9848b72279/deploy-results \
+            -H 'Content-Type: application/json' \
+            -d '{ "status": "success" }'
+
+      - name: Notify deploy status to Slack
+        if: always()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          STATUS: ${{ job.status }}
+          GH_MESSAGE: "DatoCMS update"
+          GH_ACTOR: ${{ github.actor }}
+          GH_SHA: ${{ github.sha }}
+          GH_REPO: ${{ github.repository }}
+          APP_ENVIRONMENT: production
+          SLACK_CHANNEL: CEBAD7R0F
+          LANGUAGE: "nodejs"
+          DEPLOY_TARGET: ${{ secrets.HEROKU_APP_MEMBER_NAME }}
+        run: /bin/bash ./bin/notify_slack_github.sh

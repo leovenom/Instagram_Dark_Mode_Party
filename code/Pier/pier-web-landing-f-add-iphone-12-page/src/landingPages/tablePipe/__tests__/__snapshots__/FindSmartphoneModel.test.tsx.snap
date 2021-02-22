@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FindSmartphoneModel /> Should render without errors 1`] = `
+<div>
+  <h2
+    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 jPjwaE"
+  >
+    Buscar modelo
+  </h2>
+  <p
+    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 jvkjLQ"
+  >
+    Veja se sua proteção irá receber um reajuste
+  </p>
+  <button
+    class="Button__StyledButton-szjasf-0 eGmdcK"
+  >
+    Ver valores
+  </button>
+</div>
+`;

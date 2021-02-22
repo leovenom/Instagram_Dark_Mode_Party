@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShowPrices /> Should render without errors 1`] = `
+<div>
+  <div
+    class="Grid__StyledGrid-sc-148v7sh-0 klckme"
+  >
+    <div
+      class="GridItem__StyledGridItem-rojpzy-0 jmIaJh"
+      d="12"
+    >
+      <img
+        alt="Desenho de um Smartphone"
+        class="styles__SmartphoneImg-sc-18zimf4-6 eOxcPy"
+        src="/static_assets/images/rebranding/tilted-smartphone.svg"
+      />
+      <p
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 bmrwnc"
+      >
+        Valores para um
+      </p>
+      <h2
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 iKpMtv"
+      >
+        iPhone 6S
+         
+        16GB
+      </h2>
+    </div>
+    <div
+      class="GridItem__StyledGridItem-rojpzy-0 kFuxWN"
+      d="12"
+    >
+      <div
+        class="Grid__StyledGrid-sc-148v7sh-0 klckme"
+      >
+        <div
+          class="GridItem__StyledGridItem-rojpzy-0 fARTXv"
+          d="6"
+        >
+          <div
+            class="styles__CardContainer-v1rd0i-0 jPFCtx"
+          >
+            <div
+              class="styles__CardHeader-v1rd0i-1 iDzLUt"
+            >
+              <h5
+                class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 flYYBQ"
+                color="primary"
+              >
+                Antes da atualização
+              </h5>
+              <p
+                class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 kJMJxo"
+                color="gray600"
+              >
+                Anterior a 23/11/2020
+              </p>
+            </div>
+            <div
+              class="styles__CardContent-v1rd0i-2 bKyhLl"
+            >
+              <div
+                class="styles__CardRow-v1rd0i-3 kZOViC"
+              >
+                <div
+                  class="styles__CardRowItem-v1rd0i-4 leoyfg"
+                >
+                  <p
+                    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 kJMJxo"
+                    color="gray600"
+                  >
+                    Plano
+                  </p>
+                </div>
+                <div
+                  class="styles__CardRowItem-v1rd0i-4 leoyfg"
+                >
+                  <p
+                    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 cDGqPZ"
+                    color="primary400"
+                    transform="uppercase"
+                  >
+                    Econômico
+                  </p>
+                </div>
+                <div
+                  class="styles__CardRowItem-v1rd0i-4 leoyfg"
+                >
+                  <p
+                    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 cDGqPZ"
+                    color="primary400"
+                    transform="uppercase"
+                  >
+                    Premium
+                  </p>
+                </div>
+              </div>
+              <div
+                class="styles__CardRow-v1rd0i-3 kZOViC"
+              >
+                <div
+                  class="styles__CardRowItem-v1rd0i-4 leoyfg"
+                >
+                  <p
+                    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 kJMJxo"
+                    color="gray600"
+                  >
+                    Mensalidade
+                  </p>
+                </div>
+                <div
+                  class="styles__CardRowItem-v1rd0i-4 leoyfg"
+                >
+                  <p
+                    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 hEfGWY"
+                    color="text"
+                  >
+                    R$ 19,10
+                  </p>
+                </div>
+                <div
+                  class="styles__CardRowItem-v1rd0i-4 leoyfg"
+                >
+                  <p
+                    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 hEfGWY"
+                    color="text"
+                  >
+                    R$ 13,90
+                  </p>
+                </div>
+              </div>
+              <div
+                class="styles__CardRow-v1rd0i-3 kZOViC"
+              >
+                <div
+                  class="styles__CardRowItem-v1rd0i-4 leoyfg"
+                >
+                  <p
+                    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 kJMJxo"
+                    color="gray600"
+                  >
+                    Valor do reembolso
+                  </p>
+                </div>
+                <div
+                  class="styles__CardRowItem-v1rd0i-4 leoyfg"
+                >
+                  <p
+                    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 hEfGWY"
+                    color="text"
+                  >
+                    R$ 890,00
+                  </p>
+                </div>
+                <div
+                  class="styles__CardRowItem-v1rd0i-4 leoyfg"
+                >
+                  <p
+                    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 hEfGWY"
+                    color="text"
+                  >
+                    R$ 712,00
+                  </p>
+                </div>
+              </div>
+              <p
+                class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 difqfl"
+              >
+                Valor de um semi-novo: 
+                 
+                <strong>
+                  R$ 712,00
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="GridItem__StyledGridItem-rojpzy-0 hMyuob"
+          d="6"
+        >
+          <div
+            class="styles__CardContainer-v1rd0i-0 jPFCtx"
+          >
+            <div
+              class="styles__CardHeader-v1rd0i-1 iDzLUt"
+            >
+              <h5
+                class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 flYYBQ"
+                color="primary"
+              >
+                Após a atualização
+              </h5>
+              <p
+                class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 kJMJxo"
+                color="gray600"
+              >
+                A partir de 23/11/2020
+              </p>
+            </div>
+            <div
+              class="styles__CardContent-v1rd0i-2 bKyhLl"
+            >
+              <img
+                alt="Pessoa pensativa ao lado de um celular indicando queda de preço"
+                class="styles__ImgWoman-v1rd0i-5 MJvyN"
+                src="/static_assets/images/rebranding/woman-with-smartphone.svg"
+              />
+              <p
+                class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 gLpnGR"
+                color="primary400"
+                transform="uppercase"
+              >
+                Sem reajustes
+              </p>
+              <p
+                class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 eQVYHj"
+                color="gray600"
+              >
+                Nada mudou para você nessa atualização!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="GridItem__StyledGridItem-rojpzy-0 jmIaJh"
+      d="12"
+    >
+      <a
+        class="ExternalLink__StyledLink-lmn7o3-0 kVBygc styles__StyledLink-sc-18zimf4-5 emsBSY"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Selecione outro modelo
+         
+        <svg
+          fill="none"
+          height="8"
+          viewBox="0 0 14 8"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13 1L7 7L1 1"
+            stroke="#24263B"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+`;

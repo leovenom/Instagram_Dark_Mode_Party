@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SmartphoneContainerModal /> Should render without errors 1`] = `
+<div>
+  <div
+    aria-hidden="false"
+    aria-label="seletor de modelos de smarphone que possuem cobertura da Pier"
+    aria-modal="true"
+    class="FullScreenModal__Container-ry0c7e-0 iGnnQb"
+    data-testid="full-screen-layout"
+    role="dialog"
+    tabindex="-1"
+  >
+    <div
+      class="FullScreenModal__Row-ry0c7e-1 iKuWKd"
+    >
+      <svg
+        data-testid="close-modal"
+        fill="#24263B"
+        height="20"
+        viewBox="0 0 60 60"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10 10l45 45M10 55l45-45"
+          stroke="#24263B"
+          stroke-width="8"
+        />
+      </svg>
+    </div>
+    <div
+      class="styles__Container-sc-1ipelzl-0 kDUasO"
+    >
+      <ul
+        class="styles__ModelsContainer-sc-1ipelzl-1 kNGGlO"
+        data-testid="smartphone-brand-modal"
+      >
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Apple
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Samsung Galaxy S
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Samsung Galaxy J
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Samsung Galaxy A
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Samsung Galaxy Note
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Xiaomi MI
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Xiaomi Redmi
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Motorola One
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Motorola Moto G
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Motorola Edge
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Motorola Razr
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Outro Modelo
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+        <li
+          class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+          role="button"
+          tabindex="0"
+        >
+          Não Sei
+          <svg
+            fill="#24263B"
+            height="14"
+            viewBox="0 0 10 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+            />
+          </svg>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

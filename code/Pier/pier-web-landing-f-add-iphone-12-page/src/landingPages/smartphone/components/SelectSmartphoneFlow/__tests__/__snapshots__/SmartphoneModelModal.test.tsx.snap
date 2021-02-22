@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SmartphoneModelModal /> Should render without errors 1`] = `
+<div>
+  <ul
+    class="styles__ModelsContainer-sc-1ipelzl-1 jiJlpd"
+    data-testid="smartphone-model-modal"
+  >
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 6S
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 6S PLUS
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 7
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 7 PLUS
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 8
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 8 PLUS
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone X
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone XR
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone XS
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone XS MAX
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 11 Pro Max
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 11 Pro
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 11
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone SE 2020
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 12 mini
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 12
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 12 Pro
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      iPhone 12 Pro Max
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      Outro Modelo
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+    <li
+      class="styles__ItemContainer-sc-1ipelzl-2 gxJPSZ"
+      role="button"
+      tabindex="0"
+    >
+      Não Sei
+      <svg
+        fill="#24263B"
+        height="14"
+        viewBox="0 0 10 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.976 7.531a.736.736 0 000-1.031L2.913.406c-.312-.281-.781-.281-1.062 0l-.72.719c-.28.281-.28.75 0 1.063L5.945 7l-4.812 4.844c-.281.312-.281.781 0 1.062l.719.719c.28.281.75.281 1.062 0l6.063-6.094z"
+        />
+      </svg>
+    </li>
+  </ul>
+</div>
+`;

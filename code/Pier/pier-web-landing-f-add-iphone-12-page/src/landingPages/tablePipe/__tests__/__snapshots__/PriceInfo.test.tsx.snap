@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PriceInfo /> Should render without errors 1`] = `
+<div>
+  <div
+    class="styles__CardRow-v1rd0i-3 kZOViC"
+  >
+    <div
+      class="styles__CardRowItem-v1rd0i-4 leoyfg"
+    >
+      <p
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 kJMJxo"
+        color="gray600"
+      >
+        Plano
+      </p>
+    </div>
+    <div
+      class="styles__CardRowItem-v1rd0i-4 leoyfg"
+    >
+      <p
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 cDGqPZ"
+        color="primary400"
+        transform="uppercase"
+      >
+        Econômico
+      </p>
+    </div>
+    <div
+      class="styles__CardRowItem-v1rd0i-4 leoyfg"
+    >
+      <p
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 cDGqPZ"
+        color="primary400"
+        transform="uppercase"
+      >
+        Premium
+      </p>
+    </div>
+  </div>
+  <div
+    class="styles__CardRow-v1rd0i-3 kZOViC"
+  >
+    <div
+      class="styles__CardRowItem-v1rd0i-4 leoyfg"
+    >
+      <p
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 kJMJxo"
+        color="gray600"
+      >
+        Mensalidade
+      </p>
+    </div>
+    <div
+      class="styles__CardRowItem-v1rd0i-4 leoyfg"
+    >
+      <p
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 hEfGWY"
+        color="text"
+      >
+        R$ 19,10
+      </p>
+    </div>
+    <div
+      class="styles__CardRowItem-v1rd0i-4 leoyfg"
+    >
+      <p
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 hEfGWY"
+        color="text"
+      >
+        R$ 13,90
+      </p>
+    </div>
+  </div>
+  <div
+    class="styles__CardRow-v1rd0i-3 kZOViC"
+  >
+    <div
+      class="styles__CardRowItem-v1rd0i-4 leoyfg"
+    >
+      <p
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 kJMJxo"
+        color="gray600"
+      >
+        Valor do reembolso
+      </p>
+    </div>
+    <div
+      class="styles__CardRowItem-v1rd0i-4 leoyfg"
+    >
+      <p
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 hEfGWY"
+        color="text"
+      >
+        R$ 890,00
+      </p>
+    </div>
+    <div
+      class="styles__CardRowItem-v1rd0i-4 leoyfg"
+    >
+      <p
+        class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 hEfGWY"
+        color="text"
+      >
+        R$ 712,00
+      </p>
+    </div>
+  </div>
+  <p
+    class="Text__Component-sc-1g1y147-0 Text___StyledComponent-sc-1g1y147-1 difqfl"
+  >
+    Valor de um semi-novo: 
+     
+    <strong>
+      R$ 712,00
+    </strong>
+  </p>
+</div>
+`;

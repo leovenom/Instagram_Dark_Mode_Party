@@ -1,0 +1,4 @@
+cypress/**/*.js
+out
+public
+**/.next/*

@@ -1,0 +1,21 @@
+name: Upload Development Docker Imagem
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  upload-image-to-ecr:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Upload image to ECR
+      uses: appleboy/docker-ecr-action@master
+      with:
+        access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        repo: dev/pier-web-landing
+        region: sa-east-1
+        auto_tag: true
+        dockerfile: Dockerfile.dev

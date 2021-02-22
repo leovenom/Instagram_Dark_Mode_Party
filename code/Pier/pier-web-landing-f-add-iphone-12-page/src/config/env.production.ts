@@ -1,0 +1,22 @@
+import { EnvValues } from "./types";
+
+const productionEnvs: EnvValues = {
+  PIER_API_URL: process.env.PIER_API_URL,
+  PIER_SITE_URL: process.env.PIER_SITE_URL,
+  PIER_CLOUDFRONT_URL: process.env.PIER_CLOUDFRONT_URL,
+  GOOGLE_TAG_MANAGER_ID: process.env.GOOGLE_TAG_MANAGER_ID,
+  GTM_AUTH: process.env.GTM_AUTH,
+  GTM_PREVIEW: process.env.GTM_PREVIEW,
+  MIXPANEL_TOKEN: process.env.MIXPANEL_TOKEN,
+  FACEBOOK_APP_ID: process.env.FACEBOOK_APP_ID,
+  GOOGLE_MAPS_KEY: process.env.GOOGLE_MAPS_KEY,
+  INTERCOM_APP_ID: process.env.INTERCOM_APP_ID,
+  ROLLBAR_ACCESS_TOKEN: process.env.ROLLBAR_ACCESS_TOKEN,
+  ROLLBAR_ACCESS_TOKEN_SERVER: process.env.ROLLBAR_ACCESS_TOKEN_SERVER,
+  GOOGLE_ANALYTICS_ID: process.env.GOOGLE_ANALYTICS_ID,
+  GOOGLE_ANALYTICS_TRACKER: "pierGaTracker",
+  GOOGLE_OPTIMIZE_ID: process.env.GOOGLE_OPTIMIZE_ID,
+  LOGROCKET_ID: process.env.LOGROCKET_ID,
+};
+
+export default productionEnvs;

@@ -1,0 +1,89 @@
+name: Deploy to Stag
+
+on:
+  push:
+    branches: [stage]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: sa-east-1
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - uses: actions/cache@v1
+        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: Install Packages
+        run: yarn install
+
+      - name: Build
+        env:
+          ROLLBAR_ACCESS_TOKEN: ${{ secrets.ROLLBAR_ACCESS_TOKEN }}
+          ROLLBAR_ACCESS_TOKEN_SERVER: ${{ secrets.ROLLBAR_ACCESS_TOKEN_SERVER }}
+        run: yarn run dist:stag
+
+      - name: Deploy to S3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.S3_BUCKET_STAGING }}
+          AWS_REGION: sa-east-1
+          SOURCE_DIR: "out"
+
+      - name: Invalidate Cloudfront Objects
+        env:
+          CLOUDFRONT_DIST_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID_STAGING }}
+        run: |
+          aws configure set preview.cloudfront true
+          aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DIST_ID --paths "/*"
+
+      - name: Notify deploy to Rollbar
+        if: always()
+        env:
+          ROLLBAR_ACCESS_TOKEN: "518716f575044c4085cb1d8088bec3c7"
+          STATUS: ${{ job.status }}
+          GH_MESSAGE: ${{ github.event.commits[0].message }}
+          GH_ACTOR: ${{ github.actor }}
+          GH_SHA: ${{ github.sha }}
+        run: /bin/bash ./bin/notify_rollbar_github.sh
+
+      - name: Notify deploy status to Slack
+        if: always()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          STATUS: ${{ job.status }}
+          GH_MESSAGE: ${{ github.event.commits[0].message }}
+          GH_ACTOR: ${{ github.actor }}
+          GH_SHA: ${{ github.sha }}
+          GH_REPO: ${{ github.repository }}
+          APP_ENVIRONMENT: staging
+          SLACK_CHANNEL: C01185M3L68
+          LANGUAGE: "nodejs"
+          DEPLOY_TARGET: "pier-web-landing-stag"
+        run: /bin/bash ./bin/notify_slack_github.sh
